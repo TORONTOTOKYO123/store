@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Sneaker Store</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Step Up Your Game</h1>
+            <p>Find the most stylish and comfortable sneakers here.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="pic/360_F_442547913_tWYOcGkO06Vbo30KOvrOPte5JqDHVWmR.jpg" alt="Sneaker 1">
+                    <h3>Air Classic</h3>
+                    <p>$120</p>
+                </div>
+                <div class="product-card">
+                    <img src="pic/images.jpeg" alt="Sneaker 2">
+                    <h3>Urban Runner</h3>
+                    <p>$140</p>
+                </div>
+                <div class="product-card">
+                    <img src="pic/images.jpeg" alt="Sneaker 3">
+                    <h3>Retro Vibe</h3>
+                    <p>$160</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about providing high-quality sneakers that combine style and comfort. Our mission is to help you step confidently into every occasion.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sneaker Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
